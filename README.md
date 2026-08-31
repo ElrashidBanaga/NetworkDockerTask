@@ -244,7 +244,7 @@ You should have:
    lab-redis
    lab-app
 ```
-## Step 9
+## Step 9 Test DNS between the containers
  Now enter lab-app:
  
 ```bash
