@@ -121,7 +121,7 @@ Set Key to value:
     
 ```
 ![Project Screenshot](screenshots/06-SetKey.png)
-06-SetKey.png
+
 Getting the Key value:
 ```
       "Hello"
