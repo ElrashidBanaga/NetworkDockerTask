@@ -63,7 +63,7 @@ NetworkDockerTask/
      docker network create lab-net
      docker network ls
 ```
-![Project Screenshot](screenshots/)
+![Project Screenshot](screenshots/01-network.png)
 
 
 
@@ -78,7 +78,7 @@ Verify:
 ```bash
     docker volume ls
 ```
-![Project Screenshot](screenshots/03-RunnigRedisContainer.png)
+![Project Screenshot](screenshots/02-Volume.png)
 ## Step 3 — Run the Redis container
 
 Now run Redis.
@@ -92,6 +92,7 @@ docker run -d \
   redis \
   redis-server --appendonly yes
 ```
+![Project Screenshot](screenshots/03-RunnigRedisContainer.png)
 Verify :
 ```bash
 docker ps
@@ -101,7 +102,7 @@ or :
    docker logs lab-redis
 ```
 
-![Project Screenshot](screenshots/03-RunnigRedisContainer.png)
+![Project Screenshot](screenshots/04-RunnigRedisContainer.png)
 ## Step 4 — Store data in Redis
 
 The task says:
