@@ -115,16 +115,18 @@ Exec into lab-redis and use redis-cli to SET mykey "hello".
 
 ```
 You should enter the Redis CLI::
-
+Set Key to value:
 ```redis
- SET mykey "hello
+ SET mykey "Hello"
     
 ```
-You should get:
+![Project Screenshot](screenshots/06-SetKey.png)
+06-SetKey.png
+Getting the Key value:
 ```
       "Hello"
 ```
-
+![Project Screenshot](screenshots/07-GetKey.png)
 Exit Redis:
 ```
    exit
